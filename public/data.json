@@ -1,0 +1,73 @@
+[
+    {
+        "id":1,
+        "name":"Brushes",
+        "img":"https://makeup-api.herokuapp.com/assets/brushes-6d2ab84631ecd47ced4fa07c47eb37521eb61c5a525965dafaf308f21338aa44.png",
+        "price":200
+    },
+    {
+        "id":2,
+        "name":"lippie pencil grande",
+        "img":"https://cdn.shopify.com/s/files/1/1338/0845/collections/lippie-pencil_grande.jpg?v=1512588769",
+        "price":250
+    },
+    {
+        "id":3,
+        "name":"Lippie eyeliner",
+        "img":"https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/048/original/open-uri20180708-4-13okqci?1531093614",
+        "price":225
+    },
+    {
+        "id":4,
+        "name":"CoverGirl Outlast Longwear Lipstick",
+        "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/2d46e82f21b11f658a4378abcbd1c31b_ra,w158,h184_pa,w158,h184.png",
+        "price":250
+    },
+    {
+        "id":5,
+        "name":"CoverGirl Outlast Lipcolor",
+        "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/00bee78599bf386be435237a1515fdb7_ra,w158,h184_pa,w158,h184.jpg",
+        "price":320
+    },
+    {
+        "id":6,
+        "name":"CoverGirl Colorlicious Lipstick",
+        "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/c88809fbffe05fb9594103e635387152_ra,w158,h184_pa,w158,h184.jpg",
+        "price":225
+    },
+    {
+        "id":7,
+        "name":"Eye shadow",
+        "img":"https://makeup-api.herokuapp.com/assets/eyeshadow-18fa4bed267bec6a67506150d9574259d0dcc67700e69de4ba720d9afe8204a2.png",
+        "price":500
+    },
+    {
+        "id":8,
+        "name":"Lighter screen",
+        "img":"https://makeup-api.herokuapp.com/assets/single-pot-4ce398e7d8c527ef248ace7a783cc52fd583375a25a7dcdb7b16f7a0958ccb17.png",
+        "price":450
+    },
+    {
+        "id":9,
+        "name":"Pressed Eye Shadow",
+        "img":"https://www.purpicks.com/wp-content/uploads/csm/pressed_eyeshadow_LORES_1024x1024_55deb6c3-b7cd-4cb5-9ede-f2931c07312a1.jpg",
+        "price":600
+    },
+    {
+        "id":10,
+        "name":"Mineral Blush",
+        "img":"https://www.purpicks.com/wp-content/uploads/csm/Blush_copy_1024x1024_edd99d6d-301e-4ba1-aa74-a33d21147b7c1.jpg",
+        "price":348
+    },
+    {
+        "id":11,
+        "name":"Perfect Lash Mascara",
+        "img":"https://www.purpicks.com/wp-content/uploads/2017/06/marie-natie-perfect-lash-mascara.png",
+        "price":365
+    },
+    {
+        "id":12,
+        "name":"Loose Mineral Eyeshadow",
+        "img":"https://www.purpicks.com/wp-content/uploads/csm/Loose_MineralEyeshadow_1024x1024_a958d62b-c518-4548-a2cd-9c8981f5edee1.jpg",
+        "price":455
+        }]
