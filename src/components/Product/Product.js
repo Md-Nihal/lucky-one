@@ -15,6 +15,19 @@ const Product = () => {
         .then(data=>setProducts(data))
     },[])
 
+const test = (min, max) => {
+    let s1 = max - min + 1;
+    let s2 = Math.random()*s1;
+    let r = Math.floor(s2)+min;
+    return r;
+}
+
+const chooseedProduct = () => {
+    let index = test(0, cart.length - 1)
+    const tem = cart[index]
+    alert('Buy'+' ' +tem.name+' , ' +'price : ' + tem.price)
+    return tem;
+}
     const addToFavourite = (product) =>{
         let mainBox = [...cart, product]
         if(mainBox.length <= 4 && product !== true){
@@ -24,13 +37,17 @@ const Product = () => {
         else{
             alert ('you cant add more')
         }
-     
-    
     }
+
+
 
     function randomHandler(cart){
         const random = Math.floor(Math.random() * cart.length)
         setRandom(random)
+    }
+    
+    const reset = () =>{
+        setCart([])
     }
     
     return (
@@ -56,8 +73,8 @@ const Product = () => {
                 </Favourite>
            
                 <div class="d-grid gap-2">
-            <button class="btn btn-primary" onClick={()=>randomHandler(random)} type="button">Choose One for me</button>
-            <button class="btn btn-danger" type="button">Delete all</button>
+            <button class="btn btn-primary" onClick={chooseedProduct} type="button">Choose One for me</button>
+            <button class="btn btn-danger" onClick={reset} type="button">Delete all</button>
             </div>
             </div>
         </div>
