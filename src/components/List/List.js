@@ -3,7 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 import './List.css'
+
 const List = (props) => {
+    const{addToFavourite}=props;
     const{ img, name, price} = props.product;
     return (
         
@@ -11,8 +13,9 @@ const List = (props) => {
           <img src={img} alt="" />
           <h2 className='text'>{name}</h2>
           <p className='price'>Price:${price}</p>
-          <button className='btn'>
-              <p className='add'>Add To Cart</p>
+            
+          <button onClick={()=>addToFavourite(props.product)} className='btn'>
+              <p  className='add'>Add To Cart</p>
               <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
               </button>
           
