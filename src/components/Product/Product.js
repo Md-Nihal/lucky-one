@@ -6,7 +6,6 @@ import './Product.css'
 const Product = () => {
     const [products, setProducts] = useState([])
     const [cart, setCart] = useState([])
-    const [random, setRandom] = useState({})
     
 
     useEffect(()=>{
@@ -15,6 +14,7 @@ const Product = () => {
         .then(data=>setProducts(data))
     },[])
 
+    // random choosing
 const test = (min, max) => {
     let s1 = max - min + 1;
     let s2 = Math.random()*s1;
@@ -28,6 +28,8 @@ const chooseedProduct = () => {
     alert('Buy'+' ' +tem.name+' , ' +'price : ' + tem.price)
     return tem;
 }
+
+
     const addToFavourite = (product) =>{
         let mainBox = [...cart, product]
         if(mainBox.length <= 4 && product !== true){
@@ -40,12 +42,6 @@ const chooseedProduct = () => {
     }
 
 
-
-    function randomHandler(cart){
-        const random = Math.floor(Math.random() * cart.length)
-        setRandom(random)
-    }
-    
     const reset = () =>{
         setCart([])
     }
@@ -67,12 +63,11 @@ const chooseedProduct = () => {
             <div className="favourite-container">
             <h1>Hello cart</h1>
             
-             <Favourite cart = {cart} randomHandler= {randomHandler}>
-                    
-
-                </Favourite>
+            <Favourite cart = {cart}>
+            
+            </Favourite>
            
-                <div class="d-grid gap-2">
+            <div class="d-grid gap-2">
             <button class="btn btn-primary" onClick={chooseedProduct} type="button">Choose One for me</button>
             <button class="btn btn-danger" onClick={reset} type="button">Delete all</button>
             </div>

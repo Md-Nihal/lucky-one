@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 import './List.css'
-
+// showing data in ui
 const List = (props) => {
     const{addToFavourite}=props;
     const{ img, name, price} = props.product;
