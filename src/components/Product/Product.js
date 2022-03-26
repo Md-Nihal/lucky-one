@@ -14,7 +14,7 @@ const Product = () => {
     return (
         <div className='product-container'>
            
-            <div className="list-container">
+            <div className="list-container ">
                  
             {
                 products.map(product=><List
@@ -23,7 +23,7 @@ const Product = () => {
                 ></List>)
             }
             </div>
-            <div className="favourite-container">
+            <div className="favourite-container ">
             <h1>Gello</h1>
             </div>
         </div>

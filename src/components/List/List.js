@@ -4,22 +4,18 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 import './List.css'
 const List = (props) => {
-    const{id, img, name, price} = props.product;
+    const{ img, name, price} = props.product;
     return (
+        
         <div className='card'>
-            <div className='card-img'>
-            <img src={img} alt="" />
-            </div>
-            <div className='card-info'>
-            <h3>{name}</h3>
-            <p>Price: {price}</p>
-            
-            </div>
-            <button className='button'>
-                <p className='btn-text'>buy</p>
-                <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
-            </button>
-
+          <img src={img} alt="" />
+          <h2 className='text'>{name}</h2>
+          <p className='price'>Price:${price}</p>
+          <button className='btn'>
+              <p className='add'>Add To Cart</p>
+              <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+              </button>
+          
         </div>
     );
 };

@@ -1,73 +1,72 @@
-[
-    {
-        "id":1,
-        "name":"Brushes",
-        "img":"https://makeup-api.herokuapp.com/assets/brushes-6d2ab84631ecd47ced4fa07c47eb37521eb61c5a525965dafaf308f21338aa44.png",
-        "price":200
-    },
-    {
-        "id":2,
-        "name":"lippie pencil grande",
-        "img":"https://cdn.shopify.com/s/files/1/1338/0845/collections/lippie-pencil_grande.jpg?v=1512588769",
-        "price":250
-    },
-    {
-        "id":3,
-        "name":"Lippie eyeliner",
-        "img":"https://s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/048/original/open-uri20180708-4-13okqci?1531093614",
-        "price":225
-    },
-    {
-        "id":4,
-        "name":"CoverGirl Outlast Longwear Lipstick",
-        "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/2d46e82f21b11f658a4378abcbd1c31b_ra,w158,h184_pa,w158,h184.png",
-        "price":250
-    },
-    {
-        "id":5,
-        "name":"CoverGirl Outlast Lipcolor",
-        "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/00bee78599bf386be435237a1515fdb7_ra,w158,h184_pa,w158,h184.jpg",
-        "price":320
-    },
-    {
-        "id":6,
-        "name":"CoverGirl Colorlicious Lipstick",
-        "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/c88809fbffe05fb9594103e635387152_ra,w158,h184_pa,w158,h184.jpg",
-        "price":225
-    },
-    {
-        "id":7,
-        "name":"Eye shadow",
-        "img":"https://makeup-api.herokuapp.com/assets/eyeshadow-18fa4bed267bec6a67506150d9574259d0dcc67700e69de4ba720d9afe8204a2.png",
-        "price":500
-    },
-    {
-        "id":8,
-        "name":"Lighter screen",
-        "img":"https://makeup-api.herokuapp.com/assets/single-pot-4ce398e7d8c527ef248ace7a783cc52fd583375a25a7dcdb7b16f7a0958ccb17.png",
-        "price":450
-    },
-    {
-        "id":9,
-        "name":"Pressed Eye Shadow",
-        "img":"https://www.purpicks.com/wp-content/uploads/csm/pressed_eyeshadow_LORES_1024x1024_55deb6c3-b7cd-4cb5-9ede-f2931c07312a1.jpg",
-        "price":600
-    },
-    {
-        "id":10,
-        "name":"Mineral Blush",
-        "img":"https://www.purpicks.com/wp-content/uploads/csm/Blush_copy_1024x1024_edd99d6d-301e-4ba1-aa74-a33d21147b7c1.jpg",
-        "price":348
-    },
-    {
-        "id":11,
-        "name":"Perfect Lash Mascara",
-        "img":"https://www.purpicks.com/wp-content/uploads/2017/06/marie-natie-perfect-lash-mascara.png",
-        "price":365
-    },
-    {
-        "id":12,
-        "name":"Loose Mineral Eyeshadow",
-        "img":"https://www.purpicks.com/wp-content/uploads/csm/Loose_MineralEyeshadow_1024x1024_a958d62b-c518-4548-a2cd-9c8981f5edee1.jpg",
-        "price":455
-        }]
+[{
+    "id":1,
+    "name":"Nike Jordan",
+    "img":"https://5.imimg.com/data5/ANDROID/Default/2020/11/VA/ML/XT/28747158/product-jpeg-500x500.jpg",
+    "price":59
+},
+{
+    "id":2,
+    "name":"Nike Air Max",
+    "img":"https://imageio.forbes.com/specials-images/imageserve/60143cbe8b3a95d30cc8f08a/Nike-GO-FlyEase-hands-free-shoe/960x0.jpg?fit=bounds&format=jpg&width=960",
+    "price":55
+},
+{
+    "id":3,
+    "name":"Nike Air Force 3",
+    "img":"https://footwearnews.com/wp-content/uploads/2021/09/best-nike-walking-shoes.jpg",
+    "price":70
+},
+{
+    "id":4,
+    "name":"Nike Air Max 270",
+    "img":"https://i.insider.com/5e38419b5bc79c4c7d4e1192?width=906&format=jpeg",
+    "price":65
+},
+{
+    "id":5,
+    "name":"Nike Botlegged",
+    "img":"https://images.complex.com/complex/images/c_crop,h_474,w_799,x_0,y_148/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/ugvmb7s2det6oiu5iay7/nike-oceania?fimg-ssr-default",
+    "price":59
+},
+{
+    "id":6,
+    "name":"Nike Sued",
+    "img":"https://news.artnet.com/app/news-upload/2021/03/MSCHF_Satan-Shoes-1024x643.jpg",
+    "price":80
+},
+{
+    "id":7,
+    "name":"Nike Grailled",
+    "img":"https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/cache=expiry:max/rotate=deg:exif/resize=width:2400,fit:crop/output=quality:70/compress/https://process.fs.grailed.com/9U5GWcjBRLiA8HAtR46h",
+    "price":60
+},
+{
+    "id":8,
+    "name":"Nike Blazer",
+    "img":"https://cdn.thewirecutter.com/wp-content/media/2021/12/nikeblazer-2048px-hero-2x1-1-scaled.jpg?auto=webp&quality=75&crop=2:1&width=1024",
+    "price":67
+},
+{
+    "id":9,
+    "name":"Nike Air Max 2021",
+    "img":"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1610382008-air-max-2090-womens-shoe-nk9ZbX.jpg?crop=0.902xw:0.481xh;0.0481xw,0.322xh&resize=480%3A%2A",
+    "price":72
+},
+{
+    "id":10,
+    "name":"Nike Zoom",
+    "img":"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1637247499-1606784411-turb2-1606784081.jpg",
+    "price":52
+},
+{
+    "id":11,
+    "name":"Nike Mag",
+    "img":"https://image.cnbcfm.com/api/v1/image/106015873-1562928489280417744-001a-4.jpg?v=1562928585&w=720&h=405",
+    "price":46
+},
+{
+    "id":12,
+    "name":"Nike HyperAdapt",
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-otoWMQNju4jD-KNwYPixFC8ioRJfXHdUfKENbOvGg9hQKCGFnGtmKEUHKRT_udfJwG8&usqp=CAU",
+    "price":61
+}]
